@@ -1,0 +1,110 @@
+.final {
+  background-color: #f5f9f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.final .frame-wrapper {
+  background-color: #f5f9f7;
+  height: 1047px;
+  width: 1413px;
+}
+
+.final .frame {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+  position: relative;
+  width: 1413px;
+}
+
+.final .content {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 24px;
+  padding: 24px 0px 0px;
+  position: relative;
+}
+
+.final .banner {
+  align-self: stretch;
+  flex: 0 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.final .circle-indicators {
+  height: 9.05px;
+  position: relative;
+  width: 77.86px;
+}
+
+.final .oval {
+  background-color: #deeafc;
+  border-radius: 4.69px / 4.53px;
+  height: 9px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 9px;
+}
+
+.final .oval-2 {
+  background-color: #deeafc;
+  border-radius: 4.69px / 4.53px;
+  height: 9px;
+  left: 23px;
+  position: absolute;
+  top: 0;
+  width: 9px;
+}
+
+.final .oval-3 {
+  background-color: #c7f4c2;
+  border-radius: 4.69px / 4.53px;
+  height: 9px;
+  left: 46px;
+  position: absolute;
+  top: 0;
+  width: 9px;
+}
+
+.final .oval-4 {
+  background-color: #deeafc;
+  border-radius: 4.69px / 4.53px;
+  height: 9px;
+  left: 68px;
+  position: absolute;
+  top: 0;
+  width: 9px;
+}
+
+.final .quick-links {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.final .text-wrapper {
+  align-self: stretch;
+  color: #2b2b2b;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+}

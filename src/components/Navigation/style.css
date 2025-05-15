@@ -1,0 +1,114 @@
+.navigation {
+  align-items: center;
+  background-color: #0f627c;
+  border-radius: 0px 24px 24px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 47px;
+  height: 1047px;
+  padding: 32px 0px 0px;
+  position: relative;
+  width: 218px;
+}
+
+.navigation .logo-1 {
+  height: 45px !important;
+  position: relative !important;
+  width: 165px !important;
+}
+
+.navigation .menu-name {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  margin-bottom: -10.00px;
+  padding: 0px 0px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.navigation .menulist {
+  align-items: flex-start;
+  border-radius: 0px 16px 16px 0px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 56px;
+  height: 909px;
+  justify-content: center;
+  position: relative;
+}
+
+.navigation .div {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.navigation .frame-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 22px;
+  position: relative;
+  width: 100%;
+}
+
+.navigation .menuitem {
+  align-items: center;
+  align-self: stretch;
+  background-color: #619340;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 14px;
+  padding: 8px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.navigation .img {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.navigation .text-wrapper {
+  color: #ffffff;
+  font-family: "Nunito", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+  margin-bottom: 0px;
+}
+
+.navigation .menuitem-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 14px;
+  padding: 8px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.navigation .section-divider {
+  align-self: stretch;
+  flex: 0 0 auto;
+  position: relative;
+  width: 100%;
+}

@@ -1,0 +1,163 @@
+.search {
+  align-items: flex-start;
+  background-color: #0f627c;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  height: 314px;
+  overflow: hidden;
+  padding: 24px;
+  position: relative;
+  width: 410px;
+}
+
+.search .ellipse-2 {
+  background-color: #338aa7;
+  border-radius: 164px;
+  height: 328px;
+  left: 237px;
+  position: absolute;
+  top: -143px;
+  width: 328px;
+}
+
+.search .frame-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.search .frame-4 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.search .trend-up {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.search .text-wrapper-8 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  width: 256px;
+}
+
+.search .your-business-with-a {
+  color: #d9f8d6;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: relative;
+  width: 256px;
+}
+
+.search .span {
+  font-weight: 600;
+}
+
+.search .text-wrapper-9 {
+  font-weight: 500;
+}
+
+.search .text-wrapper-10 {
+  color: #d9f8d6;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.search .frame-5 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  margin-right: -30.00px;
+  position: relative;
+  width: 392px;
+}
+
+.search .frame-6 {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #e0e7f0;
+  border-radius: 14px;
+  box-shadow: 0px 6px 16px #132c4a05;
+  display: flex;
+  gap: 15px;
+  height: 48px;
+  padding: 12px 22px;
+  position: relative;
+  width: 363px;
+}
+
+.search .img-4 {
+  height: 20px;
+  position: relative;
+  width: 24.27px;
+}
+
+.search .text-wrapper-11 {
+  color: #aeaeae;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.search .BUTTON {
+  all: unset;
+  background-color: #619340;
+  border-radius: 6.51px;
+  box-sizing: border-box;
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+  width: 123px;
+}
+
+.search .shop-now {
+  color: #ffffff;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 800;
+  left: 38px;
+  letter-spacing: 0;
+  line-height: 19.5px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 59px;
+}
+
+.search .search-lg {
+  height: 15px;
+  left: 17px;
+  position: absolute;
+  top: 12px;
+  width: 15px;
+}

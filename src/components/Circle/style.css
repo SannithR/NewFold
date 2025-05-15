@@ -1,0 +1,45 @@
+.CIRCLE {
+  height: 9px;
+  position: relative;
+  width: 78px;
+}
+
+.CIRCLE .oval {
+  background-color: #deeafc;
+  border-radius: 4.69px / 4.53px;
+  height: 9px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 9px;
+}
+
+.CIRCLE .oval-2 {
+  background-color: #deeafc;
+  border-radius: 4.69px / 4.53px;
+  height: 9px;
+  left: 23px;
+  position: absolute;
+  top: 0;
+  width: 9px;
+}
+
+.CIRCLE .oval-3 {
+  background-color: #c7f4c2;
+  border-radius: 4.69px / 4.53px;
+  height: 9px;
+  left: 46px;
+  position: absolute;
+  top: 0;
+  width: 9px;
+}
+
+.CIRCLE .oval-4 {
+  background-color: #deeafc;
+  border-radius: 4.69px / 4.53px;
+  height: 9px;
+  left: 68px;
+  position: absolute;
+  top: 0;
+  width: 9px;
+}
