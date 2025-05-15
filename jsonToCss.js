@@ -1,8 +1,10 @@
+
+
 // const fs = require('fs');
-// const path = require('path');  // Added this line
+// const path = require('path');
 
 // const inputFile = 'token.json';
-// const outputFile = 'styleguide1.css';
+// const outputFile = path.join('src', 'styleguide1.css');
 
 // fs.readFile(inputFile, 'utf8', (err, data) => {
 //   if (err) {
@@ -30,13 +32,15 @@
 
 //   function processToken(token, prefix = '') {
 //     for (const key in token) {
-//       if (token.hasOwnProperty(key) && key !== 'type') {
-//         const value = token[key];
-//         if (typeof value === 'object') {
-//           processToken(value, `${prefix}-${key}`);
-//         } else {
-//           css += `  --${prefix}-${key}: ${value};\n`;
-//         }
+//       if (!token.hasOwnProperty(key) || key === '$type') continue;
+
+//       const value = token[key];
+
+//       if (key === '$value') {
+//         css += `  --${prefix}: ${value};\n`;
+//       } else if (typeof value === 'object' && key !== '$metadata') {
+//         const newPrefix = prefix ? `${prefix}-${key}` : key;
+//         processToken(value, newPrefix);
 //       }
 //     }
 //   }
@@ -47,19 +51,20 @@
 //     }
 //   }
 
-//   css += '}';
-
-//   // Remove the line containing '--$metadata-tokenSetOrder-0: base;'
-//   css = css.replace(/--\$metadata-tokenSetOrder-0: base;\n/, '');
-
+//   css += '}\n';
 //   return css;
 // }
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+// Emulate __dirname in ES Modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const inputFile = 'token.json';
-const outputFile = path.join('src', 'styleguide1.css');
+const outputFile = path.join(__dirname, 'src', 'styleguide1.css');
 
 fs.readFile(inputFile, 'utf8', (err, data) => {
   if (err) {
