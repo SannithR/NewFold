@@ -42,7 +42,7 @@
 }
 
 .widget .text-wrapper-13 {
-  color: #619340;
+  color: var( --global-Green);
   font-family: "Inter", Helvetica;
   font-size: 16px;
   font-weight: 600;

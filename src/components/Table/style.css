@@ -579,7 +579,7 @@
 }
 
 .table .progress {
-  background-color: #619340;
+  background-color: var( --global-Green);
   border-radius: 4px;
   height: 8px;
   width: 13px;
@@ -606,14 +606,14 @@
 }
 
 .table .progress-3 {
-  background-color: #619340;
+  background-color: var( --global-Green);
   border-radius: 4px;
   height: 8px;
   width: 5px;
 }
 
 .table .progress-4 {
-  background-color: #619340;
+  background-color:var( --global-Green);
   border-radius: 4px;
   height: 8px;
   width: 17px;
